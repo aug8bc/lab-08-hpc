@@ -1,0 +1,11 @@
+JobID           JobName        NodeList  Partition    Account      User      State               Start    Elapsed 
+------------ ---------- --------------- ---------- ---------- --------- ---------- ------------------- ---------- 
+22517243     ood_vscode   udc-aw32-12c1 interacti+     ds2022    aug8bc    TIMEOUT 2026-11-05T14:36:41   02:00:02 
+22517611          hello   udc-aw32-10c0 interacti+     ds2022    aug8bc  COMPLETED 2026-11-05T15:03:11   00:00:03 
+22518296_1   hello-arr+   udc-aw32-10c1 interacti+     ds2022    aug8bc  COMPLETED 2026-11-05T15:04:21   00:00:04 
+22518296_2   hello-arr+   udc-aw32-11c0 interacti+     ds2022    aug8bc  COMPLETED 2026-11-05T15:04:21   00:00:03 
+22518296_3   hello-arr+   udc-aw32-11c1 interacti+     ds2022    aug8bc  COMPLETED 2026-11-05T15:04:21   00:00:04 
+22518296_4   hello-arr+   udc-aw32-11c1 interacti+     ds2022    aug8bc  COMPLETED 2026-11-05T15:04:21   00:00:04 
+22518296_5   hello-arr+   udc-aw32-11c1 interacti+     ds2022    aug8bc  COMPLETED 2026-11-05T15:04:21   00:00:04 
+22860345_[1]  summarize   None assigned    gpu-mig     ds2022    aug8bc    PENDING             Unknown   00:00:00 
+22860350_[1+  summarize   None assigned    gpu-mig     ds2022    aug8bc    PENDING             Unknown   00:00:00 

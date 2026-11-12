@@ -12,7 +12,7 @@ Redirect the command's output to `results/job-history.txt` and include the file 
 
 **Your answer:** Provide the entire command you used, including all CLI options.
 
-...
+mkdir -p results && sacct -S 2026-11-04 -u "$USER" -X --format=JobID,JobName,NodeList,Partition,Account,User,State,Start,Elapsed > results/job-history.txt
 
 ## 2. Slurm: did every array task run at the same time?
 
@@ -24,7 +24,7 @@ You submitted your entire job array with one `sbatch` command, but Slurm schedul
 
 **Your answer:** Did all tasks in the array start at the same time? Was the elapsed time identical for every task? Explain why or why not.
 
-...
+No, I noticed that even though one command ran the whole array the individual tasks had different start times and elapsed time also varied. The elapsed time being different makes sense as the books vary in length. I guess the start times being different also makes sense because the cluster cannot process all 101 at the same time so some have to wait.
 
 ## 3. Slurm: did my job use what it asked for?
 
@@ -36,5 +36,5 @@ Suppose your next job array has 1,000 books instead of 101. Before you submit it
 
 **Your answer:** How much memory and time did the task use, compared with what your script asked for? What would you change in your script, and why?
 
-...
+I couldn't get seff numbers because my job still hasn't processed. The script asked for 16GB and 5 minutes but I assume less was used because the script probably asked for a surplus just in case. Assuming that less was actually used, I would request less in the script because more is unneeded. 
 
