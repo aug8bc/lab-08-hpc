@@ -1,0 +1,18 @@
+JobID           JobName      User    Account  Partition  AllocCPUS              Submit               Start    Elapsed      State ExitCode 
+------------ ---------- --------- ---------- ---------- ---------- ------------------- ------------------- ---------- ---------- -------- 
+22517243     ood_vscode    aug8bc     ds2022 interacti+          1 2026-11-05T14:36:39 2026-11-05T14:36:41   02:00:02    TIMEOUT      0:0 
+22517243.ba+      batch               ds2022                     1 2026-11-05T14:36:41 2026-11-05T14:36:41   02:00:03  CANCELLED     0:15 
+22517611          hello    aug8bc     ds2022 interacti+          1 2026-11-05T14:52:21 2026-11-05T15:03:11   00:00:03  COMPLETED      0:0 
+22517611.ba+      batch               ds2022                     1 2026-11-05T15:03:11 2026-11-05T15:03:11   00:00:03  COMPLETED      0:0 
+22518296_1   hello-arr+    aug8bc     ds2022 interacti+          1 2026-11-05T15:03:23 2026-11-05T15:04:21   00:00:04  COMPLETED      0:0 
+22518296_1.+      batch               ds2022                     1 2026-11-05T15:04:21 2026-11-05T15:04:21   00:00:04  COMPLETED      0:0 
+22518296_2   hello-arr+    aug8bc     ds2022 interacti+          1 2026-11-05T15:03:23 2026-11-05T15:04:21   00:00:03  COMPLETED      0:0 
+22518296_2.+      batch               ds2022                     1 2026-11-05T15:04:21 2026-11-05T15:04:21   00:00:03  COMPLETED      0:0 
+22518296_3   hello-arr+    aug8bc     ds2022 interacti+          1 2026-11-05T15:03:23 2026-11-05T15:04:21   00:00:04  COMPLETED      0:0 
+22518296_3.+      batch               ds2022                     1 2026-11-05T15:04:21 2026-11-05T15:04:21   00:00:04  COMPLETED      0:0 
+22518296_4   hello-arr+    aug8bc     ds2022 interacti+          1 2026-11-05T15:03:23 2026-11-05T15:04:21   00:00:04  COMPLETED      0:0 
+22518296_4.+      batch               ds2022                     1 2026-11-05T15:04:21 2026-11-05T15:04:21   00:00:04  COMPLETED      0:0 
+22518296_5   hello-arr+    aug8bc     ds2022 interacti+          1 2026-11-05T15:03:23 2026-11-05T15:04:21   00:00:04  COMPLETED      0:0 
+22518296_5.+      batch               ds2022                     1 2026-11-05T15:04:21 2026-11-05T15:04:21   00:00:04  COMPLETED      0:0 
+22860345_[1]  summarize    aug8bc     ds2022    gpu-mig          0 2026-11-11T23:45:01             Unknown   00:00:00    PENDING      0:0 
+22860350_[1+  summarize    aug8bc     ds2022    gpu-mig          0 2026-11-11T23:46:09             Unknown   00:00:00    PENDING      0:0 
